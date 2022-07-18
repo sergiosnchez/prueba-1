@@ -1,3 +1,3 @@
 # prueba-1
 nuevo repositorio
-este documento es de prueba, no hay que leer...
+editamos readme para hacer mergue con git bash
