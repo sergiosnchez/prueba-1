@@ -1,0 +1,8 @@
+li {font-family: 'Fira Sans', sans-serif;float:left; width: 100px;color: rgba(204, 204, 204, 0.849);}
+.nombre {font-family: 'Oswald', sans-serif;color: brown;}
+.menu2 {font-family: 'Square Peg', cursive;}
+#caja1 {background:rgb(70, 139, 81); width: 100% ;float: left;padding: left 20px;}
+.caja2 {background:rgb(163, 63, 150); width:100% ;float: left;padding: left 20px;}
+.izquierda {text-align: left;}
+.redondeado {border-radius: 200px;}
+.centro {text-align: center;}
