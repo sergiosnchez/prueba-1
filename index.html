@@ -17,10 +17,15 @@
 
 <script>
   function suma (){
-    var puntos = Number (document.getElementById("puntos").innerHTML);
-  console.log(puntos);
-  var suma = puntos+1;
+    var puntuacion = Number (document.getElementById("puntos").innerHTML);
+  console.log(puntuacion);
+  var suma = puntuacion+1;
   document.getElementById("puntos").innerHTML = suma;
+  }
+  function calcular(){
+    var puntuacion = Number (document.getElementById("puntos").innerHTML);
+    if (puntuacion>=10) alert("suficiente");
+    else alert("todavia no llegas");
   }
 </script>
 
@@ -29,14 +34,15 @@
 <body>
   
 <h2>prueba de pestaña estilo</h2>
-  <p class="caja2"><a href="tarea 2.html">Resolución ejercicio etiquetas de encabezdos html</a></p>
-  <p class="caja1"><a href="tarea 1.html">Practica de Encabezados</a></p>
-  <p><a href="tarea 1b.html">Lista de definiciones HTML</a></p>
+<p class="caja2"><a href="tarea 1.html">Practica de Encabezados</a></p>  
+<p class="caja1"><a href="tarea 2.html">Practica deordenar listas</a></p>
+   <p><a href="tarea 1b.html">Lista de definiciones HTML</a></p>
   <p><a href="app con html.html">mi primer app con html</a></p>
   <p><a href="iframe.html">iframe</a></p>
   <div>
-    <input type="button" onclick="suma()" value="sumar">
+    <input type="button" onclick="suma()" value="sumar un punto">
     <p>tu puntaje es:<span id="puntos">0</span></p>
+    <input type="button" onclick="calcular()" value="calcular">
   </div>
 </body>
 </html>

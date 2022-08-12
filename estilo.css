@@ -1,12 +1,10 @@
 li {font-family: 'Fira Sans', sans-serif;float:left; width: 100px;color: rgba(204, 204, 204, 0.849);}
 .nombre {font-family: 'Oswald', sans-serif;color: brown;}
 .menu2 {font-family: 'Square Peg', cursive;}
-.caja1 {background:rgb(83, 19, 88);font-size: large ;color: rgb(255, 255, 255);width: 200px ;float: left;padding: left 20px;}
-.caja2 {background:rgb(45, 133, 52);font-style: italic; width:100% ;float: left;padding: left 20px;}
+.caja1 {background:rgb(215, 176, 218); font-size:large; color: rgb(255, 255, 255);}
+.caja2 {background:rgb(184, 221, 187); font-style:bold;}
 .izquierda {text-align: left;}
 .redondeado {border-radius: 200px;}
 .rojo {text-shadow: 5cm;}
 .formatolista {text-emphasis-color: black;}
-h2{
-    color: rgb(255, 0, 85);
-}
+h2{color: rgb(255, 0, 85); font-style:italic; font-size: xx-large;}
