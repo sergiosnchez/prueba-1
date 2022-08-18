@@ -32,12 +32,7 @@
 </head>
 
 <body>
-
-  <div class="row">
-    <div class="col-sm-4">columna 1</div>
-    <div class="col-sm-8">columna 2</div>
-  </div>
-<h1>
+  <h1>
   <a href="bootstramp.html">Ejemplo de busqueda sencillo Bootstramp</a>
 </h1>
 
@@ -52,5 +47,34 @@
     <p>tu puntaje es:<span id="puntos">0</span></p>
     <input type="button" onclick="calcular()" value="calcular">
   </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-4"> .col-sm-4 </div>
+
+      <div class="col-sm-8"> .col-sm-8 </div>
+
+    </div>
+
+  </div>
+
+  <div>
+    <h2>Ficha Personal</h2>
+    <label for="fname">Nombre:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Apellido:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br>
+    
+    <div id="menor" style="display:none">
+    <label for="fname">Nombre Responsable:</label><br>
+    <input type="text" id="fname_r" name="fname_r" value=""><br>
+    <label for="lname">Apellido Responsable:</label><br>
+    <input type="text" id="lname_r" name="lname_r" value=""><br>
+    </div>
+  </div>
+  
 </body>
+<script type="module" src="ficha persona menor.ts"></script>
 </html>
